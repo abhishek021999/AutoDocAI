@@ -1,0 +1,279 @@
+/* PDF Viewer Dark Mode Styles */
+[data-bs-theme="dark"] .pdf-container {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+[data-bs-theme="dark"] .pdf-page {
+  background-color: #2d2d2d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* PDF Controls Dark Mode Styles */
+[data-bs-theme="dark"] .pdf-controls {
+  background-color: #1a1a1a !important;
+  border-bottom-color: #404040 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+[data-bs-theme="dark"] .pdf-controls button {
+  color: #ffffff !important;
+  border-color: #404040 !important;
+  background-color: #2d2d2d !important;
+}
+
+[data-bs-theme="dark"] .pdf-controls button:hover {
+  background-color: #404040 !important;
+}
+
+[data-bs-theme="dark"] .pdf-controls button:disabled {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #666666 !important;
+}
+
+[data-bs-theme="dark"] .pdf-controls span {
+  color: #ffffff !important;
+}
+
+[data-bs-theme="dark"] .pdf-controls .btn-primary {
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+}
+
+[data-bs-theme="dark"] .pdf-controls .btn-primary:hover {
+  background-color: #0b5ed7 !important;
+  border-color: #0a58ca !important;
+}
+
+[data-bs-theme="dark"] .pdf-controls .btn-primary:disabled {
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+  opacity: 0.65;
+}
+
+/* Sidebar Dark Mode Styles */
+[data-bs-theme="dark"] .sidebar {
+  background-color: #1a1a1a !important;
+  border-right-color: #404040 !important;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+[data-bs-theme="dark"] .sidebar .input-group-text {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+[data-bs-theme="dark"] .sidebar .form-control {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+[data-bs-theme="dark"] .sidebar .form-control:focus {
+  background-color: #2d2d2d !important;
+  border-color: #0d6efd !important;
+  color: #ffffff !important;
+}
+
+[data-bs-theme="dark"] .sidebar .list-group-item {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+[data-bs-theme="dark"] .sidebar .list-group-item:hover {
+  background-color: #404040 !important;
+}
+
+[data-bs-theme="dark"] .sidebar .text-muted {
+  color: #a0a0a0 !important;
+}
+
+[data-bs-theme="dark"] .sidebar .bg-light {
+  background-color: #2d2d2d !important;
+}
+
+[data-bs-theme="dark"] .sidebar .bg-white {
+  background-color: #2d2d2d !important;
+}
+
+[data-bs-theme="dark"] .sidebar .btn-light {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+[data-bs-theme="dark"] .sidebar .btn-light:hover {
+  background-color: #404040 !important;
+}
+
+[data-bs-theme="dark"] .sidebar .shadow-sm {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
+}
+
+[data-bs-theme="dark"] .sidebar .border-end-0,
+[data-bs-theme="dark"] .sidebar .border-start-0 {
+  border-color: #404040 !important;
+}
+
+[data-bs-theme="dark"] .sidebar .border {
+  border-color: #404040 !important;
+}
+
+/* Highlight text styles for both light and dark modes */
+.highlight-text {
+  border: 1px solid transparent;
+}
+
+.highlight-text[data-color="yellow"] {
+  background-color: rgba(255, 235, 59, 0.2);
+  border-color: rgba(255, 235, 59, 0.4);
+}
+
+.highlight-text[data-color="blue"] {
+  background-color: rgba(33, 150, 243, 0.2);
+  border-color: rgba(33, 150, 243, 0.4);
+}
+
+.highlight-text[data-color="green"] {
+  background-color: rgba(76, 175, 80, 0.2);
+  border-color: rgba(76, 175, 80, 0.4);
+}
+
+.highlight-text[data-color="pink"] {
+  background-color: rgba(233, 30, 99, 0.2);
+  border-color: rgba(233, 30, 99, 0.4);
+}
+
+.highlight-text[data-color="orange"] {
+  background-color: rgba(255, 152, 0, 0.2);
+  border-color: rgba(255, 152, 0, 0.4);
+}
+
+/* Dark mode specific highlight text styles */
+[data-bs-theme="dark"] .highlight-text {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+[data-bs-theme="dark"] .highlight-text[data-color="yellow"] {
+  background-color: rgba(255, 235, 59, 0.2);
+  border-color: rgba(255, 235, 59, 0.4);
+}
+
+[data-bs-theme="dark"] .highlight-text[data-color="blue"] {
+  background-color: rgba(33, 150, 243, 0.2);
+  border-color: rgba(33, 150, 243, 0.4);
+}
+
+[data-bs-theme="dark"] .highlight-text[data-color="green"] {
+  background-color: rgba(76, 175, 80, 0.2);
+  border-color: rgba(76, 175, 80, 0.4);
+}
+
+[data-bs-theme="dark"] .highlight-text[data-color="pink"] {
+  background-color: rgba(233, 30, 99, 0.2);
+  border-color: rgba(233, 30, 99, 0.4);
+}
+
+[data-bs-theme="dark"] .highlight-text[data-color="orange"] {
+  background-color: rgba(255, 152, 0, 0.2);
+  border-color: rgba(255, 152, 0, 0.4);
+}
+
+[data-bs-theme="dark"] .sidebar .highlight-comment {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+}
+
+[data-bs-theme="dark"] .sidebar .color-filter-checkbox .form-check-input {
+  background-color: #2d2d2d;
+  border-color: #404040;
+}
+
+[data-bs-theme="dark"] .sidebar .color-filter-checkbox .form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+[data-bs-theme="dark"] .sidebar .color-filter-checkbox .form-check-label {
+  color: #ffffff;
+}
+
+/* PDF.js specific dark mode styles */
+[data-bs-theme="dark"] .react-pdf__Document {
+  background-color: #1a1a1a;
+}
+
+[data-bs-theme="dark"] .react-pdf__Page {
+  background-color: #2d2d2d;
+}
+
+[data-bs-theme="dark"] .react-pdf__Page__canvas {
+  background-color: #2d2d2d;
+}
+
+[data-bs-theme="dark"] .react-pdf__Page__textContent {
+  background-color: #2d2d2d;
+}
+
+[data-bs-theme="dark"] .react-pdf__Page__annotations {
+  background-color: #2d2d2d;
+}
+
+/* Modal dark mode styles */
+[data-bs-theme="dark"] .modal-content {
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
+
+[data-bs-theme="dark"] .modal-header {
+  border-bottom-color: #404040;
+}
+
+[data-bs-theme="dark"] .modal-footer {
+  border-top-color: #404040;
+}
+
+[data-bs-theme="dark"] .form-control {
+  background-color: #2d2d2d;
+  border-color: #404040;
+  color: #ffffff;
+}
+
+[data-bs-theme="dark"] .form-control:focus {
+  background-color: #2d2d2d;
+  border-color: #0d6efd;
+  color: #ffffff;
+}
+
+/* Scrollbar dark mode styles */
+[data-bs-theme="dark"] ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+[data-bs-theme="dark"] ::-webkit-scrollbar-track {
+  background: #2d2d2d;
+}
+
+[data-bs-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 4px;
+}
+
+[data-bs-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+  background: #505050;
+}
+
+/* Remove all pan control related styles */
+.pdf-document {
+  position: relative;
+}
+
+/* Dark mode specific panning styles */
+[data-bs-theme="dark"] .pdf-document:active {
+  cursor: grabbing;
+} 
