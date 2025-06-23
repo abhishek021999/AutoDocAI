@@ -3,7 +3,7 @@ import { Alert } from 'react-bootstrap';
 
 function PrivateRoute({ children }) {
   const token = localStorage.getItem('token');
-
+// nsbns
   if (!token) {
     return (
       <Alert variant="warning" className="text-center">

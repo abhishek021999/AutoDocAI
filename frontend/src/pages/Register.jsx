@@ -5,7 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
 import { UserContext } from '../components/Navbar';
-
+// snsnj
 function Register() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');

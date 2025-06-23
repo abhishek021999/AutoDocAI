@@ -8,7 +8,7 @@
   background-color: #2d2d2d;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+/* ncbn */
 /* PDF Controls Dark Mode Styles */
 [data-bs-theme="dark"] .pdf-controls {
   background-color: #1a1a1a !important;

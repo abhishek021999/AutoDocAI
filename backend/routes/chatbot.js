@@ -12,6 +12,7 @@ const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 //     contents: "Explain how AI works in a few words",
 //   });
 //   console.log(response.text);
+// bsnmbsmn
 // }
 
 // main();

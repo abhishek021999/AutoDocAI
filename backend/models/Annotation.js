@@ -6,6 +6,7 @@ const annotationSchema = new mongoose.Schema({
     ref: 'PDF',
     required: true
   },
+  // sc,,sm
   user: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',

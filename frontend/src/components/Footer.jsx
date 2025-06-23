@@ -7,6 +7,7 @@ function Footer() {
         <p className="mb-0">&copy; {new Date().getFullYear()} AutoDoc. All rights reserved.</p>
       </Container>
     </footer>
+    // scnsn
   );
 }
 

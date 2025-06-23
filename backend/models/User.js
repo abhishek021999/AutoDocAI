@@ -9,6 +9,7 @@ const userSchema = new mongoose.Schema({
     trim: true,
     lowercase: true
   },
+  // dfmdn
   password: {
     type: String,
     required: true,

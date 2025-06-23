@@ -398,7 +398,7 @@ router.get('/:id/export', auth, async (req, res) => {
                 font: helveticaBold
               });
               //dbsmnbdsdnbsbnnbv bsvssbhs
-
+              
               // Add each footnote in a clear format
               let currentY = footerStartY - 30; // Increased spacing after header
               pageHighlights.forEach((highlight, index) => {
